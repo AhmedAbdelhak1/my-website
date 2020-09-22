@@ -5,7 +5,7 @@ function Contactme() {
     return (
         <div className="cont">
             <div className="contactme">
-            <h1 >Contact ME</h1>
+            <h1 >Contact me</h1>
             <h3>If you are interisting in hiring talent and highly motivated learner, let's talk! <h4>Email: ahmedabdelhak0@gmail.com</h4> </h3>.
             
             </div>
