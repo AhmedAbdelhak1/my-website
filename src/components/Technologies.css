@@ -1,0 +1,23 @@
+.technologies> .techTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5%;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 7%;
+    
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.technologies>.icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+
+.aboutme>h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.aboutme> p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 28px;
+    font-weight: 400;
+    padding-right: 3%;
+    padding-left: 5%;
+}
