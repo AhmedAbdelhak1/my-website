@@ -7,9 +7,9 @@ function Navbar() {
         
             <nav className="header">
                  <ul className="nav-items">
-                    <li >Home</li>
-                    <li >About me</li>
-                    <li >Contact me</li>
+                  <li className="cool-link" ><a href="#content" >Home</a></li>
+                    <li className="cool-link"><a href="#aboutme">About me</a></li>
+                    <li className="cool-link"><a href="#contactme">Contact me</a></li>
                     
                 </ul>  
             

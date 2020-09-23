@@ -2,8 +2,19 @@ body{
     margin: 0;
     padding: 0;
     background-color: white;
+    
 }
-
+.App{
+    
+    scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;  
+}
+section{
+    
+    
+    scroll-snap-align: center;
+    
+}
 
 
 

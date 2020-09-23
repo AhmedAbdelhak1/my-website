@@ -1,8 +1,12 @@
 body{
     margin: 0px;
     padding: 0px;
+    
 }
 .header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color:	#282c34;
     color: white;
     display: flex;
@@ -15,12 +19,32 @@ body{
    
 }
 .header> .nav-items{
+    
     display: flex;
     color: white;
+    list-style-type: none; 
     
 }
-.header> .nav-items> li{
+.header> .nav-items> li > a{
     padding-right: 10px;
     text-decoration: none;
     display: block;
+    color: white;
+    
+   
+    
+}
+
+.cool-link::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: width .4s;
+
+}
+.cool-link:hover::after{
+    width: 100%;
+    transition: width .4s;
 }

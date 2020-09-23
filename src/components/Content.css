@@ -13,8 +13,8 @@
     align-content: flex-start;
     
 }
-.container>img{
+.container> .image> img{
     width: auto;
     height: auto;
-       
+    transform: none;   
 }
